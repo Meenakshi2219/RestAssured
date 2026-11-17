@@ -1,0 +1,20 @@
+[
+  {
+    "testType": "Positive",
+    "expectedStatus": 200,
+    "email": "admin@infoez.com",
+    "password": "Admin@123"
+  },
+  {
+    "testType": "Positive",
+    "expectedStatus": 200,
+	"email": "owner@infoez.com",
+	 "password": "Owner@123"
+  },
+  {
+    "testType": "Negative",
+    "expectedStatus": 401,
+    "email": "admin@example.com",
+    "password": "Wrongpass1"
+  }
+]

@@ -1,0 +1,15 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["id", "name", "email", "role", "status"],
+  "properties": {
+    "id": { "type": ["string", "integer"] },
+    "name": { "type": "string" },
+    "email": { "type": "string" },
+    "role": { "type": "string" },
+    "status": { "type": "string" },
+    "phone": { "type": ["string", "null"] },
+    "avatar": { "type": ["string", "null"] }
+  },
+  "additionalProperties": true
+}

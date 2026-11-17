@@ -1,0 +1,47 @@
+[
+  {
+    "testType": "Positive",
+    "tokenType": "admin",
+    "userRole": "admin",
+    "name": "Automativee",
+    "icon": "Computerr",
+    "color": "#EF4444",
+    "createcat_expectedStatus": 200
+  },
+  {
+    "testType": "Negative",
+    "tokenType": "access",
+    "userRole": "business_owner",
+    "name": "Briyani Spot",
+    "icon": "hot pot",
+    "color": "#EC4899",
+    "createcat_expectedStatus": 403
+  },
+  {
+    "testType": "Negative",
+    "tokenType": "invalid",
+    "userRole": "unknown",
+    "name": "Briyani Spot",
+    "icon": "hot pot",
+    "color": "#EC4899",
+    "createcat_expectedStatus": 401
+  },
+  {
+    "testType": "Negative",
+    "tokenType": "admin",
+    "userRole": "admin",
+    "name": "",
+    "icon": "rupee",
+    "color": "#EC4899",
+    "createcat_expectedStatus": 500
+  },
+  {
+    "testType": "Positive",
+    "tokenType": "admin",
+    "userRole": "admin",
+    "name": "Roboticc",
+    "icon": "Robott",
+    "color": "#EF4444",
+    "createcat_expectedStatus": 200
+  }
+]

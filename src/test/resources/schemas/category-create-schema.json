@@ -1,0 +1,14 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "required": ["id", "name", "icon", "color"],
+  "properties": {
+    "id": { "type": ["string", "integer"] },
+    "name": { "type": "string", "minLength": 1, "maxLength": 50 },
+    "icon": { "type": "string", "minLength": 1 },
+    "color": { "type": "string", "pattern": "^#([A-Fa-f0-9]{6}|[A-Fa-f0-9]{3})$" },
+    "slug": { "type": "string" },
+    "is_active": { "type": ["boolean", "null"] }
+  },
+  "additionalProperties": true
+}

@@ -1,0 +1,18 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "required": ["id", "name", "slug", "icon", "color"],
+    "properties": {
+      "id": { "type": ["string", "integer"] },
+      "name": { "type": "string" },
+      "slug": { "type": "string" },
+      "icon": { "type": "string" },
+      "color": { "type": "string" },
+      "is_active": { "type": ["boolean", "null"] },
+      "business_count": { "type": ["integer", "number", "null"] }
+    },
+    "additionalProperties": true
+  }
+}

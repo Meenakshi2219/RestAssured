@@ -1,0 +1,22 @@
+[
+  {
+    "listcat_Type": "Positive",
+    "expectedStatus": 200
+  },
+  {
+    "listcat_Type": "Positive",
+    "expectedStatus": 200
+  },
+  {
+    "listcat_Type": "Positive",
+    "expectedStatus": 200
+  },
+  {
+    "listcat_Type": "Positive",
+    "expectedStatus": 200
+  },
+  {
+    "listcat_Type": "Positive",
+    "expectedStatus": 200
+  }
+]

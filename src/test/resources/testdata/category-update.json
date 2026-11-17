@@ -1,0 +1,47 @@
+[
+  {
+    "testType": "Positive",
+    "tokenType": "admin",
+    "userRole": "admin",
+    "update_name": "Updated Automative",
+    "update_icon": "Computer",
+    "update_color": "#EF4444",
+    "updatecat_expectedStatus": 200
+  },
+  {
+    "testType": "Negative",
+    "tokenType": "access",
+    "userRole": "business_owner",
+    "update_name": "Updated Briyani Spot",
+    "update_icon": "hot pot",
+    "update_color": "#EC4899",
+    "updatecat_expectedStatus": 403
+  },
+  {
+    "testType": "Negative",
+    "tokenType": "invalid",
+    "userRole": "unknown",
+    "update_name": "Updated Briyani Spot",
+    "update_icon": "hot pot",
+    "update_color": "#EC4899",
+    "updatecat_expectedStatus": 401
+  },
+  {
+    "testType": "Negative",
+    "tokenType": "admin",
+    "userRole": "admin",
+    "update_name": "",
+    "update_icon": "rupee",
+    "update_color": "#EC4899",
+    "updatecat_expectedStatus": 500
+  },
+  {
+    "testType": "Positive",
+    "tokenType": "admin",
+    "userRole": "admin",
+    "update_name": "Updated Robotics",
+    "update_icon": "Robot",
+    "update_color": "#EF4444",
+    "updatecat_expectedStatus": 200
+  }
+]

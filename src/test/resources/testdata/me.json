@@ -1,0 +1,14 @@
+[
+  {
+    "tokenType": "admin",
+    "expectedStatus": 200
+  },
+  {
+    "tokenType": "access",
+    "expectedStatus": 200
+  },
+  {
+    "tokenType": "invalid",
+    "expectedStatus": 401
+  }
+]

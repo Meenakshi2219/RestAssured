@@ -1,0 +1,20 @@
+[
+  {
+    "testType": "Positive",
+    "expectedStatus": 200,
+    "name": "Kavithaa",
+    "email": "kavithaa.${unique}@gmail.com",
+    "password": "TestUser@123",
+    "role": "customer",
+    "phone": "+919876543210"
+  },
+  {
+    "testType": "Negative",
+    "expectedStatus": 422,
+    "name": "",
+    "email": "invalid-email",
+    "password": "",
+    "role": "customer",
+    "phone": "123"
+  }
+]

@@ -1,0 +1,31 @@
+
+[
+  { 
+	"testType": "Positive", 
+	"tokenType": "admin",   
+	"userRole": "admin",          
+	"c_id": "", 
+	"deletecat_expectedStatus": 200 
+},
+  { 
+	"testType": "Negative", 
+	"tokenType": "invalid", 
+	"userRole": "admin",          
+	"c_id": "", 
+	"deletecat_expectedStatus": 401 
+},
+  { 
+	"testType": "Negative", 
+	"tokenType": "access",  
+	"userRole": "customer",       
+	"c_id": "", 
+	"deletecat_expectedStatus": 403
+ },
+  { 
+	"testType": "Negative", 
+	"tokenType": "admin",   
+	"userRole": "admin",          
+	"c_id": "invalid_id", 
+	"deletecat_expectedStatus": 404
+ }
+]
